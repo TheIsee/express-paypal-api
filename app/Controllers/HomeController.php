@@ -2,13 +2,12 @@
 
 namespace App\Controllers;
 
-use Psr\Http\Message\RequestInterface as Request;
-use Psr\Http\Message\ResponseInterface as Response;
+use Slim\Views\Twig as View;
 
-class HomeController {
+class HomeController extends Controller {
 
-  public function index(Request $req, Response $res) {
-    return 'world';
+  public function index($req, $res) {
+    return $this->view->render($res, 'home.twig');
   }
 
 }

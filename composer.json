@@ -1,0 +1,14 @@
+{
+    "name": "theisee/express-paypal-api",
+    "description": "Web Application to test Paypal Express Checkout API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TheIsee",
+            "email": "gigaagent@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
